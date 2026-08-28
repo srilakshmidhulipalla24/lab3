@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Static Web App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">My Web App</h1>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+            <h2>Welcome to My Static Website</h2>
+
+            <p>
+                A simple static web application created using
+                HTML, CSS and JavaScript.
+            </p>
+
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <h2>About This Project</h2>
+
+        <p>
+            This project demonstrates how to create and deploy
+            a static website using GitHub Pages and GitHub Actions.
+        </p>
+
+        <p>
+            Whenever changes are pushed to the main branch,
+            GitHub Actions automatically deploys the latest
+            version of the website.
+        </p>
+
+    </section>
+
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+
+        <h2>Features</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>HTML</h3>
+                <p>
+                    HTML is used to create the structure
+                    of the web page.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>
+                    CSS is used to design and style
+                    the web page.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>GitHub Pages</h3>
+                <p>
+                    GitHub Pages is used to host this
+                    static website online.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+
+        <h2>Contact</h2>
+
+        <p>
+            Thank you for visiting my static web application.
+        </p>
+
+        <button onclick="showMessage()">Click Me</button>
+
+        <p id="message"></p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; 2026 My Static Web App
+        </p>
+
+        <p>
+            Deployed using GitHub Pages
+        </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
